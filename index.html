@@ -1,0 +1,28 @@
+<html>
+
+<body>
+    <!--it could be anything pdf etc.-->
+    <h1>Welcome to my Website!</h1>
+
+    <!--call the /name URL, local host http get method and pass first name and last name using the HTTP get request -->
+    <h3>Get Method</h3>
+    <form action="/name" method="get">
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname"><br><br>
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!--send data as part of a post method-->
+    <h3>Post Method</h3>
+    <form action="/name" method="post">
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname"><br><br>
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
